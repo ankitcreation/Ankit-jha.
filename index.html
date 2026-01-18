@@ -1,0 +1,301 @@
+<meta name='viewport' content='width=device-width, initial-scale=1'/><!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Ankit Jha | Professional Web Developer</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Segoe UI',sans-serif}
+
+body{
+  background:linear-gradient(135deg,#0f2027,#203a43,#2c5364);
+  color:#fff;
+}
+
+/* HERO */
+header{
+  text-align:center;
+  padding:120px 20px 80px;
+}
+.profile{
+  width:280px;height:280px;margin:auto;
+  border-radius:50%;overflow:hidden;
+  border:6px solid #00f2fe;
+  box-shadow:0 0 50px #00f2fe;
+}
+.profile img{width:100%;height:100%;object-fit:cover}
+
+header h1{font-size:48px;margin-top:25px}
+header p{font-size:19px;opacity:.9;margin-top:12px}
+
+/* CTA */
+.cta{margin-top:35px}
+.cta a{
+  display:inline-block;
+  padding:14px 34px;
+  border-radius:40px;
+  font-weight:700;
+  text-decoration:none;
+  font-size:15px;
+  background:#00f2fe;
+  color:#000;
+  box-shadow:0 0 25px #00f2fe;
+  transition:.3s;
+}
+.cta a:hover{
+  transform:translateY(-6px);
+  box-shadow:0 0 40px #00f2fe;
+}
+
+/* SOCIAL */
+.socials{margin-top:35px}
+.socials a{
+  width:50px;height:50px;line-height:50px;
+  display:inline-block;margin:0 10px;
+  border-radius:50%;
+  background:rgba(255,255,255,.15);
+  color:#00f2fe;font-size:22px;
+  transition:.3s;
+}
+.socials a:hover{
+  background:#00f2fe;
+  color:#000;
+  transform:translateY(-6px);
+}
+
+/* NAV */
+nav{
+  display:flex;
+  justify-content:center;
+  gap:45px;
+  margin:45px 0;
+}
+nav a{
+  color:#00f2fe;
+  text-decoration:none;
+  font-weight:600;
+}
+
+/* SECTIONS */
+section{
+  max-width:1200px;
+  margin:auto;
+  padding:40px;
+}
+.card{
+  background:rgba(255,255,255,.12);
+  backdrop-filter:blur(14px);
+  border-radius:28px;
+  padding:55px;
+  margin-bottom:55px;
+}
+
+/* ABOUT */
+#about p{font-size:18px;line-height:1.9}
+
+/* STATS */
+.stats{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+  gap:30px;
+  margin-top:35px;
+}
+.stat{
+  text-align:center;
+  background:rgba(0,242,254,.15);
+  padding:35px;
+  border-radius:22px;
+}
+.stat h3{font-size:38px;color:#00f2fe}
+
+/* SKILLS */
+.skills{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+  gap:25px;
+  margin-top:30px;
+}
+.skill{
+  background:rgba(255,255,255,.15);
+  padding:25px;
+  border-radius:20px;
+  display:flex;
+  align-items:center;
+  gap:18px;
+}
+.skill i{font-size:34px;color:#00f2fe}
+
+/* FORM */
+form input,form textarea,form select{
+  width:100%;
+  padding:16px;
+  border:none;
+  border-radius:14px;
+  margin-bottom:18px;
+  outline:none;
+}
+form button{
+  width:100%;
+  padding:16px;
+  background:#00f2fe;
+  border:none;
+  border-radius:14px;
+  font-weight:700;
+  cursor:pointer;
+}
+
+/* FOOTER */
+footer{
+  text-align:center;
+  padding:30px;
+  opacity:.85;
+  font-size:14px;
+}
+
+/* MOBILE NORMAL */
+@media(max-width:768px){
+  header{padding:80px 15px 50px}
+  .profile{width:200px;height:200px;box-shadow:0 0 25px #00f2fe}
+  header h1{font-size:34px}
+  header p{font-size:16px}
+  .cta a{padding:12px 26px;font-size:14px}
+  .socials a{
+    width:42px;height:42px;line-height:42px;
+    font-size:18px;margin:0 6px;
+  }
+  section{padding:25px 15px}
+  .card{padding:30px 22px}
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <div class="profile">
+    <img src="https://i.postimg.cc/HxDCRL8d/1758910531211.jpg">
+  </div>
+
+  <h1>Ankit Jha</h1>
+  <p>Professional Web Developer • Modern • Responsive • Client-Focused</p>
+
+  <div class="cta">
+    <a href="#contact">Hire Me</a>
+  </div>
+
+  <div class="socials">
+    <a href="#"><i class="fab fa-facebook-f"></i></a>
+    <a href="#"><i class="fab fa-instagram"></i></a>
+    <a href="#"><i class="fab fa-github"></i></a>
+  </div>
+</header>
+
+<nav>
+  <a href="#about">About</a>
+  <a href="#skills">Skills</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+  <div class="card">
+    <h2>About Me</h2><br>
+    <p>
+      Hello! I am <b>Ankit Jha</b>, a passionate Web Developer from Nepal.
+      I build modern, responsive and professional websites that help businesses grow online.
+      <br><br>
+      I am currently studying at <b>Dhanusa Science Campus</b> and learning advanced web development skills every day.
+      My focus is on creating clean UI, strong UX, fast performance, and smart integrations.
+      <br><br>
+      I love solving real-world problems with code and I enjoy working on projects that challenge me.
+      My goal is to become a full-stack developer and build products that users love.
+    </p>
+
+    <h3 style="margin-top:35px;">Study Plan (My Progress)</h3>
+    <p style="opacity:.9;line-height:1.8;font-size:16px;">
+      ✔️ Learn Advanced JavaScript & Modern Frameworks (React / Next.js)<br>
+      ✔️ Build 2–3 real projects every month (Portfolio, E-commerce, Blog)<br>
+      ✔️ Practice UI/UX design and responsive layouts<br>
+      ✔️ Improve backend skills (Node.js, Express, MongoDB)<br>
+      ✔️ Learn hosting, domain setup, and deployment<br>
+      ✔️ Work on freelancing projects to gain real client experience
+    </p>
+
+    <div class="stats">
+      <div class="stat"><h3>25+</h3><p>Projects</p></div>
+      <div class="stat"><h3>15+</h3><p>Clients</p></div>
+      <div class="stat"><h3>2+</h3><p>Years</p></div>
+      <div class="stat"><h3>10+</h3><p>Skills</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="skills">
+  <div class="card">
+    <h2>Skills</h2>
+    <div class="skills">
+      <div class="skill"><i class="fab fa-html5"></i>HTML5</div>
+      <div class="skill"><i class="fab fa-css3-alt"></i>CSS3</div>
+      <div class="skill"><i class="fab fa-js"></i>JavaScript</div>
+      <div class="skill"><i class="fas fa-mobile-alt"></i>Responsive Design</div>
+      <div class="skill"><i class="fas fa-envelope"></i>Email Integration</div>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="card">
+    <h2>Hire Me</h2>
+    <p style="opacity:.85;font-size:15px;margin:15px 0 25px">
+      Please fill the form below or contact me directly at  
+      <b>ankitjhanepal227@gmail.com</b>
+    </p>
+
+    <form onsubmit="sendMail();return false;">
+      <input id="name" placeholder="Full Name" required>
+      <input id="email" type="email" placeholder="Email Address" required>
+      <input id="phone" placeholder="Phone Number" required>
+      <input id="address" placeholder="Your Address">
+      <select id="budget">
+        <option value="">Estimated Budget</option>
+        <option>Low</option>
+        <option>Medium</option>
+        <option>High</option>
+      </select>
+      <textarea id="msg" rows="4" placeholder="Describe your project" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </div>
+</section>
+
+<footer>
+  © 2026 Ankit Jha | Professional Web Developer
+</footer>
+
+<script>
+function sendMail(){
+  var name=document.getElementById("name").value;
+  var email=document.getElementById("email").value;
+  var phone=document.getElementById("phone").value;
+  var address=document.getElementById("address").value;
+  var budget=document.getElementById("budget").value;
+  var msg=document.getElementById("msg").value;
+
+  var link="mailto:ankitjhanepal227@gmail.com"
+  +"?subject=Website Inquiry from "+encodeURIComponent(name)
+  +"&body="
+  +"Name: "+encodeURIComponent(name)+"%0A"
+  +"Email: "+encodeURIComponent(email)+"%0A"
+  +"Phone: "+encodeURIComponent(phone)+"%0A"
+  +"Address: "+encodeURIComponent(address)+"%0A"
+  +"Budget: "+encodeURIComponent(budget)+"%0A"
+  +"Message: "+encodeURIComponent(msg);
+
+  window.location.href=link;
+}
+</script>
+
+</body>
+</html>
